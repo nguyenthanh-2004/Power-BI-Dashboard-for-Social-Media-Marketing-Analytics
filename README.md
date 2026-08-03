@@ -22,67 +22,22 @@ This dashboard is designed to answer several business questions:
 - Where should businesses prioritize their marketing investment?
 Rather than simply displaying KPIs, the dashboard focuses on providing insights that support better business decisions.
 # Dataset
-The analysis is based on a dataset containing 5,000 social media posts collected across multiple platforms during 2024–2025.
-The dataset includes three major groups of marketing metrics:
-- Reach Metrics
-- Impressions
-- Views
-- Video Views
-- Live Stream Views
-- Engagement Metrics
-- Engagement
-- Engagement Rate
-- Likes
-- Comments
-- Shares
-- Conversion Metrics
-- Clicks
-- Click-Through Rate (CTR)
-Additional attributes include:
-- Platform
-- Region
-- Content Category
-- Post Type
-- Main Hashtag
-- Post Date
-- Post Hour
-The analysis covers six major social media platforms and eight geographic markets.
+The analysis is based on a dataset containing **5,000 social media posts** collected across multiple platforms during **2024–2025**.
+**Marketing Metrics:** Reach (Impressions, Views, Video Views, Live Stream Views); Engagement (Engagement, Engagement Rate, Likes, Comments, Shares); Conversion (Clicks, Click-Through Rate (CTR)).
+**Content Attributes:** Platform; Region; Content Category; Post Type; Main Hashtag; Post Date; Post Hour.
+**Coverage:** 6 social media platforms; 8 geographic markets.
 # Dashboard Pages
 # 1. Executive Overview
-A high-level summary of overall marketing performance.
-Main features:
-- Overall KPIs
-- Marketing performance trends
-- Platform comparison
-- Executive summary
+Executive Overview provides a high-level summary of overall social media marketing performance by presenting key KPIs, including 5,000 posts, 5.77B impressions, 4.81B views, 646M engagements, a 15.28% average engagement rate, and a 1.84% average CTR. Overall performance remains relatively stable throughout the analysis period, indicating consistent campaign effectiveness over time. Among all platforms, YouTube and TikTok generate the highest levels of impressions and engagement, while Facebook and LinkedIn contribute comparatively lower performance. Although engagement remains strong, the relatively low CTR suggests that converting audience attention into user actions is still a challenge. These findings provide an overall understanding of campaign performance and establish the foundation for deeper analysis of platform effectiveness, content performance, regional behavior, and posting strategy in the following dashboard pages.
 ![Executive Overview](Executive_Overview.png)
 # 2. Platform & Content Performance
-Analyze how different platforms, post types, and content categories influence engagement.
-Main analyses:
-- Platform Comparison
-- Content Category Performance
-- Post Type Performance
-- Platform × Content Matrix
-
-(Dashboard Screenshot)
+This page analyzes how content categories, platforms, and post formats influence marketing performance. Educational and Customer Story content consistently deliver the highest engagement rates (around 20%), indicating that audiences respond more positively to informative and experience-based content than promotional posts. While engagement remains relatively consistent across regions, platform performance varies depending on content format. Instagram achieves the highest overall engagement rate (15.85%), followed closely by TikTok and Facebook, suggesting these platforms are more effective for driving audience interaction. These findings indicate that businesses should prioritize high-performing content categories while tailoring content formats to the strengths of each platform instead of adopting a one-size-fits-all strategy.
+![Platform & Content Performance](Platform_Content_Performance.png)
 # 3. Audience & Regional Performance
-Compare marketing performance across different geographic markets.
-Main analyses:
-- Regional Engagement
-- Regional CTR
-- Video Views
-- Live Stream Views
-- Geographic Map
-- Regional Content Matrix
-(Dashboard Screenshot)
+This page analyzes marketing performance across different geographic markets by combining regional reach, conversion, and content engagement metrics. Germany achieves the highest average video views and live stream views, indicating stronger audience reach than other regions, while CTR remains relatively consistent across markets at around 2%, suggesting that higher exposure does not always result in higher conversion. The Regional Content Performance Matrix further shows that Educational and Customer Story consistently deliver the highest engagement rates across all countries, whereas Entertainment and Product Promotion generate lower engagement. Overall, the results indicate that although audience size varies by region, user content preferences remain highly consistent, allowing businesses to prioritize investment in high-performing markets such as Germany, Australia, and the United States while maintaining a similar content strategy across different regions.
+![Audience & Regional Performance](Audience_Regional_Performance.png)
 # 4. Posting Strategy
-Identify the optimal publishing strategy.
-Main analyses:
-- Best Posting Hour
-- Posting Distribution
-- Top Performing Hashtags
-- Engagement by Posting Hour
-(Dashboard Screenshot)
+
 # Key Insights
 The dashboard reveals several important patterns:
 Marketing performance varies significantly across social media platforms.
